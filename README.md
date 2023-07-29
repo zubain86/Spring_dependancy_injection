@@ -8,14 +8,14 @@
 
 This creates object of a class in a spring container
 
-@ Autowired annotation 
+@ Autowired -
 This annotation is used to search any dependant object in spring container 
 
-@Scope
+@Scope -
 This annotation does not create object by default. It creates object in spring container only when demanded.
 Syntax - @Scope(value = “prototype”)
 
-@Qualifier
+@Qualifier -
 This annotation is used to search an object with a set name.
 Syntax = @Qualifier(“lap1”)
 But to use qualifier annotation you have to set a object name in component annotation like-

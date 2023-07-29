@@ -21,3 +21,10 @@ Syntax = @Qualifier(“lap1”)
 But to use qualifier annotation you have to set a object name in component annotation like-
 @Component(“lap1”)
 
+To get the object of spring container-
+
+  ConfigurableApplicationContext context = SpringApplication.run(FirstProjectApplication.class, args);
+
+ To access objects in spring container-
+ Ex-
+ Alien a = context.getBean(Alien.class)

@@ -4,7 +4,7 @@
 
  Dependancy injection is done easily with the help of loosely coupled objects that is created using annotations
 
- @Component
+ @Component-
 
 This creates object of a class in a spring container
 
